@@ -42,6 +42,9 @@ class Calculator{
     }
     // The code `public static void main(String[] args)` is the main method in Java. It is the entry
     // point of the program and is automatically called when the program is run.
+    float sqr(float num1){
+        return num1*num1;
+    }
     public static void main(String[] args) {
         calcuator c=new calcuator();
         float num1=10;
@@ -71,5 +74,9 @@ class Calculator{
 
         float div=c.div(num1,num2);
         System.out.println("Result for div="+div);
+
+
+        float sqr=c.sqr(num1);
+        System.out.println("Result for sub="+sqr);
     }
 }
