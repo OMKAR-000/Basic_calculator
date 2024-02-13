@@ -46,7 +46,7 @@ class Calculator{
         return num1*num1;
     }
     public static void main(String[] args) {
-        Calcuator c=new Calcuator();
+        Calculator c=new Calculator();
         float num1=10;
         float num2=10;
 // The code `float add=c.add(num1,num2);` is calling the `add` method of the `calculator` class and
